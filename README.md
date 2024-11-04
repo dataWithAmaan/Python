@@ -1,7 +1,3 @@
-Here’s a detailed and engaging README file for your repository:
-
----
-
 # Python Basics Repository
 
 Welcome to the **Python Basics** repository! This collection covers essential concepts of Python programming, providing a strong foundation for anyone starting their Python journey or revisiting core topics.

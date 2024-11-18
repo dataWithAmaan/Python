@@ -1,0 +1,4 @@
+Hi everyone
+We are learning python I/O
+using python.
+I like programming in python.

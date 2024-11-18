@@ -7,8 +7,8 @@
 
 str = "AmaanKhan"
 for i in str:
-    if (i == "K"):
-        print("Found K")
+    if (i == "L"):
+        print("Found L")
         break
     print(i)
 else:

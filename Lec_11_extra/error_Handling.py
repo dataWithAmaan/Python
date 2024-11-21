@@ -1,16 +1,14 @@
 # Error Handling (Extra Study)
-# source: https://youtu.be/NIWwJbo-9_8?feature=shared 
+# source: https://www.youtube.com/watch?v=V_NXT2-QIlE
 
 try:
-    f = open('practice.txt')
-    if f.name == 'practice.txt':    # manually raising exception
-        raise Exception
-    # var  = bad_var 
-except FileNotFoundError:          # named Exception
-    print("Error: Sorry this file does'nt exist!")
-except Exception:                  # general exception
-    print("Error: Something went wrong!")
-else:                              # No exception then executes
-    f.read()
-finally:                           # always executes no matter what!
-    print("finally block always executes!!")
+    number = int(input("enter a number: "))
+    print(1/number)
+except ZeroDivisionError:
+    print("Error: Division by zero is not allowed")
+except ValueError:
+    print("Error: Invalid input. Please enter a valid number.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+finally:
+    print("Program ended")

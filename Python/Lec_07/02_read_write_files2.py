@@ -1,7 +1,0 @@
-f = open("Lec_07\sample.txt","w")
-print(f.write("My favourite player is Leonel Messi"))
-print(" ")
-f = open("Lec_07\sample.txt","r+")
-print(f.write("abc"))
-print(f.read())
-f.close()
